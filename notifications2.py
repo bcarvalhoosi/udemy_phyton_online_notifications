@@ -21,7 +21,7 @@ def send_mail(subject, message):
         connection.sendmail(
             from_addr=my_email,
             to_addrs=MAIL_TO.split(';'),
-            msg=f"Subject:{subject}{message}\n\nBest regards,\nfrom your beloved\nBernardino Carvalho"
+            msg=f"Subject:{subject}{message}\n\nBest regards,\nfrom your beloved\nYour Name"
         )
     print(f"Email sent to {MAIL_TO} at {dt.datetime.now()} with subject {subject} and message {message}")
 
