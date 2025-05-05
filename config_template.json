@@ -1,0 +1,10 @@
+{
+  "my_lat": 0,
+  "my_long": 0,
+  "mail_to": "",
+  "my_email": "",
+  "my_password": "",
+  "my_smtp_address": "",
+  "my_mail_signature": "",
+  "keep_alive": 1
+}
